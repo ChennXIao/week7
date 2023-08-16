@@ -6,8 +6,6 @@ if(btn){
     let Password = document.getElementById("password")
     let Name = document.getElementById("name")
 
-    // alert(w.value);
-
     if(Account.value=="" || Password.value==""||Name.value==""){
         alert("帳號、密碼及名字不能空白");
         e.preventDefault();
